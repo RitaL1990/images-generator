@@ -1,0 +1,187 @@
+.Generate {
+    background: black;
+    height: 100vh;
+
+    .TextNav{
+      background: linear-gradient(45deg, #8A2BE2, #FF00FF, #8A2BE2);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-top: 15px;
+    };
+    
+    .GenNav {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto;
+        font-size: x-large;
+        background-color: rgba(128, 128, 128, 0.268);
+        border-radius: 15px;
+        padding: 0 40px;
+        border-radius: 20px;
+    };
+
+    .GenIcon {
+       margin-top: 15px;
+       margin-right: 25px;
+       cursor: pointer;
+    };
+};
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    
+    .FormPic {
+        border: rgba(174, 0, 255, 0.378) solid 1px;
+        width: 625px;
+        height: 625px;
+        border-radius: 20px;
+        display: block;
+        margin: 0 auto;
+      };
+      
+      @media screen and (max-width: 750px) {
+        .FormPic {
+          width: 450px;
+          height: 450px;
+        };
+    };
+
+    .FormImage {
+        width: 625px;
+        height: 625px;
+        border: rgba(174, 0, 255, 0.378) solid 2px;
+        border-radius: 20px;
+        display: block;
+        margin: 0 auto;
+      }
+      
+      @media screen and (max-width: 750px) {
+        .FormImage {
+          width: 450px;
+          height: 450px;
+        };
+    };
+    
+
+    .FormList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 90px;
+        color: rgb(174, 129, 245);
+        list-style-type: none;
+
+        .FBtn1{
+          display: flex;
+          margin-right: 20px;
+        };
+
+        .Btn1 {
+          margin-left: 10px;
+          border-radius: 10px;
+          padding: 10px 30px;
+          background: linear-gradient(90deg, rgb(12, 8, 97) 0%, rgba(92,48,161,1) 29%, rgb(255, 0, 183) 100%);
+          color: rgb(0, 0, 0);
+          cursor: pointer;
+        };
+
+        .FBtn2{
+          display: flex;
+          margin-right: 20px;
+        };
+        
+        .Btn2 {
+          margin-left: 10px;
+          border-radius: 10px;
+          padding: 10px 30px;
+          background: linear-gradient(90deg, rgb(12, 8, 97) 0%, rgba(92,48,161,1) 29%, rgb(255, 0, 183) 100%);
+          color: rgb(0, 0, 0);
+          cursor: pointer;
+        };
+
+        .FBtn3{
+          display: flex;
+          margin-right: 20px;
+        };
+
+        .Btn3 {
+          margin-left: 10px;
+          border-radius: 10px;
+          padding: 10px 30px;
+          background: linear-gradient(90deg, rgb(12, 8, 97) 0%, rgba(92,48,161,1) 29%, rgb(255, 0, 183) 100%);
+          color: rgb(0, 0, 0);
+          cursor: pointer;
+        };
+    };
+
+
+    .FormText {
+        display: flex;
+        border: rgba(174, 0, 255, 0.378) solid 2px;
+        width: 60%;
+        height: 30px;
+        padding: 10px;
+        display: block;
+        margin: 20px auto;
+        border-radius: 12px;
+        background-color: #333;
+        color: #fff;
+    };
+
+    .FormGen {
+        border-radius: 15px;
+        background: linear-gradient(90deg, rgb(12, 8, 97) 0%, rgba(92,48,161,1) 29%, rgb(255, 0, 183) 100%);
+        color: rgb(0, 0, 1);
+        padding: 20px 40px 20px 40px;
+        margin: 10px auto;
+        width: 25%;
+        cursor: pointer;
+    };
+};
+
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(128, 128, 128, 0.338);
+  height: 50px;
+  border-radius: 20px;
+  margin-top: auto;
+
+  .FootBtn1 {
+    text-decoration: none;
+    color: rgb(174, 129, 245);
+    margin-left: 100px;
+    transition: 0.3s;
+  };
+
+  .FootBtn1:hover {
+    color: rgb(144, 84, 242);
+  };
+
+  @media screen and (max-width: 750px) {
+    .FootBtn1 {
+      margin-right: 20px;
+    }
+  };
+
+  .FootBtn2 {
+    text-decoration: none;
+    color: rgb(174, 129, 245);
+    margin-right: 150px;
+    transition: 0.3s;
+  };
+
+  .FootBtn2:hover {
+    color: rgb(144, 84, 242);
+  };
+
+  @media screen and (max-width: 750px) {
+    .FootBtn2 {
+      margin-left: 20px;
+    }
+  };
+};

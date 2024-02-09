@@ -1,0 +1,96 @@
+.navGal {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px auto;
+        font-size: x-large;
+        background-color: rgba(128, 128, 128, 0.268);
+        border-radius: 15px;
+        padding: 0 40px;
+        border-radius: 20px;
+
+        .textGal {
+          display: flex;
+          align-items: center;
+          background: linear-gradient(45deg, #8A2BE2, #FF00FF, #8A2BE2);
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          margin-left: 55px;
+          margin: 10px;
+        };
+};
+
+.galleryGal {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  .imgGal {
+    width: 250px;
+    height: 250px;
+    border: rgba(174, 0, 255, 0.378) solid 2px;
+    border-radius: 20px;
+    margin: 10px;
+  };
+};
+
+.btnGal {
+  border-radius: 10px;
+  padding: 10px 30px;
+  background: linear-gradient(90deg, rgb(12, 8, 97) 0%, rgba(92,48,161,1) 29%, rgb(255, 0, 183) 100%);
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 8%; 
+  left: 50%; 
+  transform: translateX(-50%); 
+};
+
+.footerGal {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.338);
+    height: 50px;
+    border-radius: 20px;
+    margin-top: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  
+    .FootBtn1Gal {
+      text-decoration: none;
+      color: rgb(174, 129, 245);
+      margin-left: 100px;
+      transition: 0.3s;
+    };
+  
+    .FootBtn1Gal:hover {
+      color: rgb(144, 84, 242);
+    };
+  
+    @media screen and (max-width: 750px) {
+      .FootBtn1Gal {
+        margin-right: 20px;
+      }
+    };
+  
+    .FootBtn2Gal {
+      text-decoration: none;
+      color: rgb(174, 129, 245);
+      margin-right: 150px;
+      transition: 0.3s;
+    };
+  
+    .FootBtn2Gal:hover {
+      color: rgb(144, 84, 242);
+    };
+  
+    @media screen and (max-width: 750px) {
+      .FootBtn2Gal {
+        margin-left: 20px;
+      }
+    };
+  };

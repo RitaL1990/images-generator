@@ -1,0 +1,39 @@
+@keyframes glow {
+  0% { text-shadow: 0 0 10px #8A2BE2; }
+  50% { text-shadow: 0 0 20px #FF00FF; }
+  100% { text-shadow: 0 0 10px #8A2BE2; }
+}
+
+.Homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: rgb(174, 129, 245);
+  animation: glow 2s infinite alternate;
+};
+
+.Button {
+  text-decoration: none;
+  border-radius: 15px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(12, 8, 97) 0%, rgba(92,48,161,1) 29%, rgb(255, 0, 183) 100%);
+  color: rgb(0, 0, 0);
+  padding: 20px 40px 20px 40px;
+};
+
+.HomePic {
+  border: rgba(174, 0, 255, 0.378) solid 1px;
+  width: 500px;
+  height: 500px;
+  border-radius: 70px;
+};
+
+@media screen and (max-width: 750px) {
+  .HomePic {
+    width: 450px;
+    height: 450px;
+  }
+};
